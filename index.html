@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title></title>
+    <script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
+    <style>
+        table{ border-collapse: collapse;}
+        table tr{height:4rem;line-height:4rem;border:1px solid #e3baa4;}
+        table td,table th{border-left:1px solid #e3baa4;}
+    </style>
+</head>
+    
+<body>
+    <table class="tab" width="100%"></table>
+    <script>
+        $.ajax({
+            url: "data.json",
+            dataType: "json",
+            success: function(arr){
+                var str="";
+                for(var i in arr){
+                    str += "<tr>";
+                    for(var j in arr[i]){
+                        str += "<td  align='center' style='background-image:linear-gradient(to right,#"+ arr[i][j].bgStart+",#"+ arr[i][j].bgEnd +"')>"+ arr[i][j].data +"</td>";
+                    }
+                    str += "</tr>"
+                    
+                }
+                $(".tab").append(str);
+            }
+        });
+    </script>
+</body>
+</div>
+</html>

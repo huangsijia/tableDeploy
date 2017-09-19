@@ -1,0 +1,96 @@
+
+{
+      "one": [{
+                  "data":"111",
+                  "bgStart":"fff",
+                  "bgEnd":"fdfafa"
+            },
+            {
+                  "data":"aaa",
+                  "bgStart":"fdfafa",
+                  "bgEnd":"fbbcbc"
+            },
+                  {
+                  "data":"一一一",
+                  "bgStart":"fbbcbc",
+                  "bgEnd":"fa8181"
+            }, 
+            {
+                  "data":"ha1",
+                  "bgStart":"fa8181",
+                  "bgEnd":"fa4040"
+            },
+            {
+                  "data":"p1",
+                  "bgStart":"fa4040",
+                  "bgEnd":"f00"
+            }
+      ],
+      "two":[{
+                  "data":"222",
+                  "bgStart":"fff",
+                  "bgEnd":"f8f8fe"
+            },{
+                  "data":"bbb",
+                  "bgStart":"f8f8fe",
+                  "bgEnd":"bfc4fd"
+            },{
+                  "data":"ererer",
+                  "bgStart":"bfc4fd",
+                  "bgEnd":"818afd"
+            }, {
+                  "data":"ha2",
+                  "bgStart":"818afd",
+                  "bgEnd":"4451fb"
+            },{
+                  "data":"p2",
+                  "bgStart":"4451fb",
+                  "bgEnd":"0012ff"
+            }
+      ],
+      "three":[{
+                  "data":"333",
+                  "bgStart":"fff",
+                  "bgEnd":"fcfcf1"
+            },{
+                  "data":"ccc",
+                  "bgStart":"fcfcf1",
+                  "bgEnd":"fdfcbd"
+            }, {
+                  "data":"sss",
+                  "bgStart":"fdfcbd",
+                  "bgEnd":"fdfc80"
+            }, {
+                  "data":"ha3",
+                  "bgStart":"fdfc80",
+                  "bgEnd":"fffd48"
+            },{
+                  "data":"p3",
+                  "bgStart":"fffd48",
+                  "bgEnd":"fffd48"
+            }
+      ],
+      "four":[{
+                  "data":"444",
+                  "bgStart":"fff",
+                  "bgEnd":"e4fafe"
+            },{
+                  "data":"ccc",
+                  "bgStart":"e4fafe",
+                  "bgEnd":"bff3fc"
+            },{
+                  "data":"sss",
+                  "bgStart":"bff3fc",
+                  "bgEnd":"8febfc"
+            }, {
+                  "data":"ha4",
+                  "bgStart":"8febfc",
+                  "bgEnd":"40e2ff"
+            },{
+                  "data":"p4",
+                  "bgStart":"40e2ff",
+                  "bgEnd":"00d8ff"
+            }
+      ]
+}
+      
