@@ -37,6 +37,24 @@
             }
         });
     </script>
+    
+    
+    <script type="text/javascript" src="artTemplate.js"></script>
+    {{each list as item i}}
+        <tr>
+            {{each item.briskValue}}
+                {{if $index == 0}}
+                    {{if i == 0}} <td rowspan="{{briskLineCount-1}}">{{$value}}</td>{{/if}}          
+                {{else}}
+                    {{if i == (briskLineCount-1)}}
+                        {{if $index == 1}}<td colspan="{{briskColumnCount}}">{{$value}}</td>{{/if}}
+                    {{else}}
+                        <td>{{$value}}</td>
+                    {{/if}}
+                {{/if}}
+            {{/each}}
+        </tr>
+    {{/each}}
 </body>
 </div>
 </html>
